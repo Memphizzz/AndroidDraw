@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="3.119.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\JetBrainsMono-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\AVHersheySimplexLight.ttf" />
+    <EmbeddedResource Include="Fonts\IBMPlexMono-Thin.ttf" />
+  </ItemGroup>
+
+</Project>
